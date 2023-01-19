@@ -1,0 +1,29 @@
+Story Name:
+Taxes and Home Prices
+Story Topics:
+Economics , Government , Consumer
+Datafile Name:
+Albuquerque Home Prices
+Methods:
+Diagnostics , Regression , Outlier , Transformation
+Abstract:
+
+How taxes change in response to changing market value of homes is a question of concern to citizens 
+as a policy matter as well as a personal financial concern. The tax data included in the datafile 
+Home Prices permit an examination of this question for used homes in Albuquerque in 1993. 
+The linear relation between taxes and resale value is influenced by a few undertaxed expensive homes. 
+In addition, the relation suffers from increasing residual error with increasing price. The student 
+is encouraged for these reasons to transform the analysis to one of log taxes versus log 
+price, and to comment on the progressiveness or regres- siveness of the result. 
+
+
+Variable Names:
+
+1. PRICE = Selling price ($hundreds)
+2. SQFT = Square feet of living space
+3. AGE = Age of home (years)
+4. FEATS = Number out of 11 features (dishwasher, refrigerator, microwave, disposer, washer, intercom, skylight(s), compactor, dryer, handicap fit, cable TV access
+5. NE = Located in northeast sector of city (1) or not (0)
+6. COR = Corner location (1) or not (0)
+7. not used
+8. TAX = Annual taxes ($) 
